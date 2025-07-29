@@ -1,25 +1,35 @@
-# 🧠 Personalized Treatment Recommendation System
+# 🧠 Medication Recommender System
 
+## ❗ Problem Definition
+In modern healthcare, generic treatment plans often overlook the unique medical histories, symptoms, and needs of individual patients. This can lead to ineffective treatments, adverse drug reactions, and poor health outcomes. Many patients, especially in under-resourced settings, also lack immediate access to qualified medical professionals for timely recommendations.
+
+There is a need for a system that:
+Analyzes patient-specific data (symptoms, history, etc.),
+Uses machine learning to predict appropriate treatments,
+And provides a personalized, fast, and accurate recommendation interface.
+
+## 🎯 Objective
+To develop a web-based machine learning system that provides personalized medication and treatment suggestions based on user-inputted medical data, ensuring accessibility, efficiency, and accuracy.
+
+# Overview
 This project is a **machine learning-based web application** designed to provide **personalized medication and treatment suggestions** based on patient data. The system allows users to **sign up or log in**, input health-related information, and receive intelligent treatment recommendations through a trained ML model.
 
 ---
 
-## 📸 Interface Screenshot
+## 📸 
 
 ![System Interface](static/interface.png)
 
-> 🔺 Make sure your image file is named `interface.png` and placed in the `static/` folder of your project.
 
----
 
 ## 🚀 Features
 
 - ✅ User Signup & Login Authentication (Flask-Login)
 - ✅ Personalized treatment recommendations using machine learning
 - ✅ Easy-to-use web interface built with Flask + HTML/CSS
-- ✅ Text recognition from uploaded medical images using OCR (Tesseract)
+- ✅ Speech recognition for voice input
 - ✅ Dashboard for patient data input and model interaction
-- ✅ Deployed using Render
+- ✅ Deployed using flask
 
 ---
 
@@ -29,10 +39,10 @@ This project is a **machine learning-based web application** designed to provide
 |-----------------|------------------------------------------|
 | Backend         | Python, Flask                            |
 | Frontend        | HTML, CSS, JavaScript                    |
-| Machine Learning| scikit-learn, pandas, numpy, joblib      |
+| Machine Learning| scikit-learn, pandas, numpy, pickle      |
 | Text Recognition| pytesseract, opencv-python, Pillow       |
 | Authentication  | Flask-Login, Flask-WTF, WTForms          |
-| Deployment      | Render, gunicorn                         |
+               
 
 ---
 
