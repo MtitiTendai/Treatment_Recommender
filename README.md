@@ -1,4 +1,4 @@
-# 🧠 Personalized Treatment Recommendation System
+# 🧠 Personalized Treatment Recommender System
 
 This project is a **machine learning-based web application** designed to provide **personalized medication and treatment suggestions** based on patient data. The system allows users to **sign up or log in**, input health-related information, and receive intelligent treatment recommendations through a trained ML model.
 
